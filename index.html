@@ -10,7 +10,20 @@
 </head>
 <body>
     <header class="bg-amber-100">
-        <section class="container md:flex items-center justify-around py-12 ">
+        <nav class="container flex items-center justify-between mx-auto px-4 py-6 sm:px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-52">
+            <div class="w-64">
+                <img src="images/logo.png"alt="">
+            </div>
+            <div>
+            <ul class="md:flex md:gap-8 hidden">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        <section class="container md:flex items-center mx-auto px-4 sm:px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-52 py-12 ">
             <div class="space-y-4">
                 <h1 class="text-7xl font-bold uppercase">
                     <span class="text-yellow-400">Be The Penguin</span><br> 
@@ -29,12 +42,10 @@
                 <img src="images/model.png"alt="">
             </div>
         </section>
-    
-
     </header>
     <main>
-        <section class="container m-auto">
-            <h2 class="text-cyan-900 uppercase font-bold text-4xl my-7"> Woman Jacket</h2>
+        <section class="container mx-auto px-4 sm:px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-52 ">
+            <h2 class="text-cyan-900 uppercase font-bold text-4xl my-16"> Woman Jacket</h2>
             <!-- women jacket container -->
             <div class="grid lg:grid-cols-3 gap-7">
                 <div class="shadow-lg rounded-2xl p-4 space-y-4">
@@ -97,8 +108,8 @@
             </div>
         </section>
         <!-- man jacket -->
-        <section class="container m-auto">
-            <h2 class="text-cyan-900 uppercase font-bold text-4xl my-7"> Man Jacket</h2>
+        <section class="container mx-auto px-4 sm:px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-52">
+            <h2 class="text-cyan-900 uppercase font-bold text-4xl my-16"> Man Jacket</h2>
             <!-- men jacket container -->
             <div class="grid lg:grid-cols-3 gap-7">
                 <div class="shadow-lg rounded-2xl p-4 space-y-4">
@@ -161,51 +172,52 @@
             </div>
         </section>
         <!-- features -->
-        <section class="grid grid-cols-2 gap-5 my-16 mx-auto">
-            <div class="flex items-center justify-center gap-4">
-              <div class="w-16">
-                <img src="icons/image 12.png"alt="">
-              </div>  
-              <div>
-                <h3 class="text-3xl text-cyan-900 font-bold">
-                Find the Perfect Fit
-                </h3>
-                <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing <br> elit. Mollitia, odit!
-                </p>
-              </div>
-            </div>
-            <div class=" row-span-3 flex items-center">
-                <div class="w-96">
+        <section class="lg:flex lg:justify-between my-16 mx-auto px-4 sm:px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-52">
+            <div class="lg:flex lg:items-center lg:order-2 lg:my-0 my-16">
+                <div class="w-full mx-auto w-96">
                 <img src="images/shopping.png"alt="">
               </div>  
-              
             </div>
-            <div class="flex items-center justify-center gap-4">
-                <div class="w-16">
-                <img src="icons/image 13.png"alt="">
-              </div>  
-              <div>
-                <h3 class="text-3xl text-cyan-900 font-bold">
-                Free Exchanges
-                </h3>
-                <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing <br>elit. Mollitia, odit!
-                </p>
-              </div>
-            </div>
-            <div class="flex items-center justify-center gap-4">
-                <div class="w-16">
-                <img src="icons/image 14.png"alt="">
-              </div>  
-              <div>
-                <h3 class="text-3xl text-cyan-900 font-bold">
-                Contact our seller
-                </h3>
-                <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing<br> elit. Mollitia, odit!
-                </p>
-              </div>
+            <div>
+                <div class="lg:flex lg:items-center lg:justify-center lg:gap-4 my-10 mx-4 rounded-2xl shadow-xl p-6">
+                    <div class="w-full lg:w-16 flex justify-center lg:block">
+                      <img class="w-16 h-auto" src="icons/image 12.png"alt="">
+                    </div>
+                    <div>
+                      <h3 class="text-3xl text-cyan-900 font-bold text-center lg:text-left">
+                      Find the Perfect Fit
+                      </h3>
+                      <p class="text-center lg:text-left">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing <br> elit. Mollitia, odit!
+                      </p>
+                    </div>
+                </div>
+                <div class="lg:flex lg:items-center lg:justify-center lg:gap-4 my-10 mx-4 rounded-2xl shadow-xl p-6">
+                    <div class="w-full lg:w-16 flex justify-center lg:block">
+                      <img class="w-16 h-auto"src="icons/image 13.png"alt="">
+                    </div>  
+                    <div>
+                      <h3 class="text-3xl text-cyan-900 font-bold text-center lg:text-left">
+                      Free Exchanges
+                      </h3>
+                      <p class="text-center lg:text-left">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing <br>elit. Mollitia, odit!
+                      </p>
+                    </div>
+                </div>
+                <div class="lg:flex lg:items-center lg:justify-center lg:gap-4 my-10 mx-4 rounded-2xl shadow-xl p-6">
+                    <div class="w-full lg:w-16 flex justify-center lg:block">
+                      <img class="w-16 h-auto"src="icons/image 14.png"alt="">
+                    </div>  
+                    <div>
+                      <h3 class="text-3xl text-cyan-900 font-bold text-center lg:text-left">
+                      Contact our seller
+                      </h3>
+                      <p class="text-center lg:text-left">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing<br> elit. Mollitia, odit!
+                      </p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
